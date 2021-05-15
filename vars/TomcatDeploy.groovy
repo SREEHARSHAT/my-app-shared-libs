@@ -5,3 +5,4 @@ def call(cred_id,user.ip){
      sh "ssh ${user}@${ip} /opt/tomcat8/bin/shutdown.sh"
      sh "ssh ${user}@${ip} /opt/tomcat8/bin/startup.sh"
   }
+}
